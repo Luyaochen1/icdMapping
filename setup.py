@@ -1,16 +1,16 @@
 from distutils.core import setup
 setup(
-  name = 'icd2phenotype',        
-  packages = ['icd2phenotype'],  
-  version = '0.14',      
+  name = 'icdMapping',        
+  packages = ['icdMapping'],  
+  version = '0.1',      
   license='MIT',        
-  description = 'Identify phenotypes from ICD code list',   
+  description = 'Identify diseases from ICD code list',   
   include_package_data=True,
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
-  url = 'https://github.com/Luyaochen1/icd2phenotype',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Luyaochen1/icd2phenotype/archive/V_014.tar.gz',     
-  keywords = ['icd 9', 'icd 10', 'phenotypes'],   
+  url = 'https://github.com/Luyaochen1/icdMapping',   # Provide either the link to your github or to your website
+  download_url = 'https://github.com/Luyaochen1/icdMapping/archive/V_01.tar.gz',     
+  keywords = ['icd 9', 'icd 10', 'diseases'],   
   install_requires=[            # I get to this in a second
           'pandas',
         ],

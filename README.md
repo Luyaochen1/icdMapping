@@ -26,7 +26,6 @@ import icd2pheotype
 And you are ready to go!  
 
 ## Functions
-
 printrepos() - return all the repositories in the packages
 getrepo( reponame)  - returen a repositories by name
 printphenotypes( reponame )  - return phenotypes defined in the repository 

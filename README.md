@@ -29,8 +29,8 @@ And you are ready to go!
 ## Functions
 printrepos() - return all the repositories in the packages
 getrepo( reponame)  - returen a repositories by name
-printdiseases( reponame )  - return phenotypes defined in the repository 
-icdMapping(icdlist,reponame) - map icd list to phenotypes
+printdiseases( reponame )  - return diseases defined in the repository 
+icdMapping(icdlist,reponame) - map icd list to diseases
  
  ## Examples
 
@@ -52,5 +52,5 @@ ip.printrepos()
 test_icds = ['39891', '40201', '40211', '40291', '40401', '40403', '40411', '40413', '40491', '40493', '428', '4280', '42800', '42801', '42802']
 print(ip.icdMapping(test_icds,'icd9_map_ahrq'))
 ```
-![result](https://github.com/Luyaochen1/icd2phenotype/blob/master/pics/icd2phenotype_result.JPG)
+![result](https://github.com/Luyaochen1/icdMapping/blob/master/pics/icd2phenotype_result.JPG)
  

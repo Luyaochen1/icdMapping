@@ -46,7 +46,7 @@ def mapping(df,map_dic):
 
 # p.apply(mapping, args=(icd9_map_ahrq,), axis=0)
 
-def icd2phenotype(icd, map_dic_name):
+def icd2diseases(icd, map_dic_name):
     map_dic=eval(map_dic_name)
     p = pd.DataFrame(columns = map_dic.keys())
     for v in p.columns.values:
@@ -62,7 +62,7 @@ def printrepos():
 def getrepo(dic_name):
     return eval(dic_name)
 
-def printphenotypes(dic_name):
+def printdiseases(dic_name):
     keys=[]
     for key,val in (eval(dic_name).items()):
         keys.append(key)

@@ -1,0 +1,1 @@
+recursive-include icd2phenotype/res *.json

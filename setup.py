@@ -2,14 +2,14 @@ from distutils.core import setup
 setup(
   name = 'icd2phenotype',        
   packages = ['icd2phenotype'],  
-  version = '0.13',      
+  version = '0.14',      
   license='MIT',        
   description = 'Identify phenotypes from ICD code list',   
   include_package_data=True,
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
   url = 'https://github.com/Luyaochen1/icd2phenotype',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Luyaochen1/icd2phenotype/archive/V_013.tar.gz',     
+  download_url = 'https://github.com/Luyaochen1/icd2phenotype/archive/V_014.tar.gz',     
   keywords = ['icd 9', 'icd 10', 'phenotypes'],   
   install_requires=[            # I get to this in a second
           'pandas',

@@ -11,14 +11,14 @@ with open(path.join(here, 'README'), encoding='utf-8') as f:
 setup(
   name = 'icdMapping',        
   packages = ['icdMapping'],  
-  version = '0.1',      
+  version = '0.11',      
   license='MIT',        
   description = 'Identify diseases from ICD code list',   
   include_package_data=True,
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
   url = 'https://github.com/Luyaochen1/icdMapping',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Luyaochen1/icdMapping/archive/V_01.tar.gz',     
+  download_url = 'https://github.com/Luyaochen1/icdMapping/archive/v0.1.tar.gz',     
   keywords = ['icd 9', 'icd 10', 'diseases'],   
   install_requires=[            # I get to this in a second
           'pandas',

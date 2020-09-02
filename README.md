@@ -51,6 +51,4 @@ ip.printrepos()
 test_icds = ['39891', '40201', '40211', '40291', '40401', '40403', '40411', '40413', '40491', '40493', '428', '4280', '42800', '42801', '42802']
 print(ip.icd2phenotype(test_icds,'icd9_map_ahrq'))
 ```
-  PHTN  BloodLoss  Depression  FluidsLytes  Coagulopathy  WeightLoss  Lymphoma  Tumor   Mets  Liver  ...    NeuroOther  HTNcx  Renal  Obesity   CHF   DMcx  Anemia  Pulmonary     DM    HTN
-0  False      False       False        False         False       False     False  False  False  False  ...         False   True   True    False  True  False   False      False  False  False
-
+https://github.com/Luyaochen1/icd2phenotype/blob/master/pics/icd2phenotype_result.JPG

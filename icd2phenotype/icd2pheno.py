@@ -8,7 +8,7 @@ import json
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 ## load data to memory
-data_folder = './res/'
+data_folder = os.path.dirname(__file__)+ '/res/'
 
 x=os.getcwd()
 onlyfiles = [f for f in listdir(data_folder) if (isfile(join(data_folder, f)) & ('.json' in f))]

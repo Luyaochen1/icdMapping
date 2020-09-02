@@ -8,7 +8,7 @@ setup(
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
   url = 'https://github.com/Luyaochen1/icd2phenotype',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Luyaochen1/icd2phenotypee/archive/icd2phenotype_01.tar.gz',     
+  download_url = 'https://github.com/Luyaochen1/icd2phenotype/archive/V_01.tar.gz',     
   keywords = ['icd 9', 'icd 10', 'phenotypes'],   
   install_requires=[            # I get to this in a second
           'pandas',

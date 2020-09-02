@@ -52,5 +52,4 @@ test_icds = ['39891', '40201', '40211', '40291', '40401', '40403', '40411', '404
 print(ip.icd2phenotype(test_icds,'icd9_map_ahrq'))
 ```
 ![result](https://github.com/Luyaochen1/icd2phenotype/blob/master/pics/icd2phenotype_result.JPG)
-Format: ![Alt Text](url)
  

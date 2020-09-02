@@ -18,7 +18,7 @@ setup(
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
   url = 'https://github.com/Luyaochen1/icdMapping',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Luyaochen1/icdMapping/archive/v0.1.tar.gz',     
+  download_url = 'https://github.com/Luyaochen1/icdMapping/archive/v0.11.tar.gz',     
   keywords = ['icd 9', 'icd 10', 'diseases'],   
   install_requires=[            # I get to this in a second
           'pandas',

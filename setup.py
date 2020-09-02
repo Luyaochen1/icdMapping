@@ -5,6 +5,7 @@ setup(
   version = '0.12',      
   license='MIT',        
   description = 'Identify phenotypes from ICD code list',   
+  include_package_data=True,
   author = 'Xiaoqian Jiang, Luyao Chen',                  
   author_email = 'your.email@domain.com',      
   url = 'https://github.com/Luyaochen1/icd2phenotype',   # Provide either the link to your github or to your website

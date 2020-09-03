@@ -44,7 +44,7 @@ ip.printrepos()
 ['icd10_map_names_ccs', 'icd9cm_hierarchy', 'icd9_map_multi_ccs', 'icd10_sub_chapters', 'icd10_map_quan_deyo', 'icd10cm2019', 'icd10_map_ahrq', 'icd9_map_cc', 'icd9_names_single_ccs', 'icd10_map_pccc_dx', 'icd9_map_quan_elix', 'icd9_majors', 'icd10_map_elix', 'icd9cm2014_leaf', 'icd9_map_pccc_dx', 'icd9_map_charlson', 'icd10_map_quan_elix', 'vermont_dx', 'icd_map_cc_hcc', 'icd10_map_ccs', 'uranium_pathology', 'icd10_map_charlson', 'icd10_map_pccc_pcs', 'icd9_map_ahrq', 'icd9_map_quan_deyo', 'icd9_map_single_ccs', 'icd9_map_elix', 'icd10_map_ahrq_pcs', 'icd9_names_multi_ccs', 'icd9_map_pccc_pcs', 'icd10_map_cc']
 
 ```Python
- ip.printdiseases('icd9_map_pccc_dx');
+ ip.printdiseases('icd9_map_pccc_dx')
 ```
 ['hemato_immu', 'gi', 'transplant', 'respiratory', 'congeni_genetic', 'renal', 'neonatal', 'malignancy', 'tech_dep', 'cvd', 'neuromusc', 'metabolic']
 

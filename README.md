@@ -50,7 +50,7 @@ ip.printrepos()
 
 ```Python
 test_icds = ['39891', '40201', '40211', '40291', '40401', '40403', '40411', '40413', '40491', '40493', '428', '4280', '42800', '42801', '42802']
-print(ip.icdMapping(test_icds,'icd9_map_ahrq'))
+print(ip.icd2diseases(test_icds,'icd9_map_ahrq'))
 ```
 ![result](https://github.com/Luyaochen1/icdMapping/blob/master/pics/icd2phenotype_result.JPG)
  

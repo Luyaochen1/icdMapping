@@ -54,3 +54,6 @@ print(ip.icd2diseases(test_icds,'icd9_map_ahrq'))
 ```
 ![result](https://github.com/Luyaochen1/icdMapping/blob/master/pics/icd2phenotype_result.JPG)
  
+## Acknowledgement 
+
+This package is inspired by the R package https://cran.r-project.org/web/packages/icd/index.html and we inherited its code mapping to start with. In the current version, we support ICD9 and ICD10 mapping to Charlson, Quan, Elixhauser, and AHRQ comorbidities. Please check out details with: ip.printrepos()
